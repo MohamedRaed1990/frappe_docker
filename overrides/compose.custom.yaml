@@ -1,0 +1,19 @@
+services:
+  backend:
+    image: sabre-erp:v2
+    pull_policy: never
+  frontend:
+    image: sabre-erp:v2
+    pull_policy: never
+  websocket:
+    image: sabre-erp:v2
+    pull_policy: never
+  queue-short:
+    image: sabre-erp:v2
+    pull_policy: never
+  queue-long:
+    image: sabre-erp:v2
+    pull_policy: never
+  scheduler:
+    image: sabre-erp:v2
+    pull_policy: never
